@@ -150,13 +150,13 @@
     margin: 0 auto;
 }
 
-.recipes__video {
+.recipes__video-item {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.recipes__iframe-vid {
+.recipes__iframe {
     width: 480px;
     height: 273px;
 }
