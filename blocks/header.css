@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     background-color: #fff;
     background-image: url(../images/background_header.svg);
     background-repeat: no-repeat;
@@ -7,15 +8,11 @@
     height: 800px;
     display: flex;
     flex-direction: column;
-}
-
-.header__nav {
-    margin-bottom: 183px;
+    z-index: 1;
 }
 
 .header__title {
-    margin-left: 80px;
-    margin-bottom: 28px;
+    margin: 0 0 28px 80px;
     max-width: 729px;
     font-size: 60px;
     line-height: 72px;
@@ -26,8 +23,6 @@
 .header__span-accent {
     font-family: "Noto Serif", 'Times New Roman', serif;
     font-style: italic;
-    font-size: 60px;
-    line-height: 72px;
     color: #3F96F3;
     display: block;
 }
@@ -44,7 +39,7 @@
     position: absolute;
     top: 124px;
     right: 5px;
-    z-index: 1;
+    z-index: -1;
     width: 646px;
     height: 568px;
 }
@@ -67,16 +62,7 @@
     color: #6F6F6F;
 }
 
-.header__hours-title {
+.header__paragraph {
     padding: 0;
-    margin: 0;
-}
-
-.header__hours-text {
-    padding: 0;
-    margin: 0;
-}
-
-.header__address {
     margin: 0;
 }

@@ -1,9 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-right: 80px;
+    padding: 30px 80px 183px 30px;
 }
 
 
@@ -17,6 +15,7 @@
     list-style: none;
     justify-content: space-between;
     gap: 20px;
+    text-decoration: none;
 }
 
 .nav__link {

@@ -4,8 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
-    z-index: 1;
 }
 
 .menu__title {

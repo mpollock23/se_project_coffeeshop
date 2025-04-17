@@ -7,21 +7,21 @@
     }
     100% {
         opacity: 0;
-        transform: scale(1.1, 1.1);
+        transform: scale(1.5);
     }
 }
 
 .about {
-    background-color: #0a2150;
+    background-color: #0a2850;
     color: #fff;
     position: relative;
+    overflow: hidden;
 }
 
 .about__title {
     max-width: 251px;
+    margin: 100px auto auto 80px;
     position: relative;
-    top: 100px;
-    left: 80px;
     z-index: 1;
     font-weight: 500;
     font-size: 44px;
@@ -36,7 +36,7 @@
     max-width: 660px;
     padding: 119px 80px 173px 0;
     margin-left: auto;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-size: 20px;
     line-height: 30px;
 }
